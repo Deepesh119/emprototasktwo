@@ -1,0 +1,127 @@
+.Body{
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  grid-template-columns: 20vw 50vw 30vw;
+}
+.BodyLeft{
+  display: grid;
+  grid-template-rows: 26vh 74vh;
+}
+.BodyLeftOne{
+ background-color: 	#89CFF0;
+}
+.BodyLeftTwo{
+  background-image: linear-gradient(#176eb6,#143180)
+}
+.BodyLeftOneMargin{
+  padding-bottom: 0px;
+  margin-top: 30px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+.BodyLeftOneMarginone{
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 60px;
+  margin-top: 0px;
+  font-size: 10px;
+}
+.BellIcon{
+  margin-left: 50px;
+  font-size: 20px ;
+}
+ul{
+  margin-top: 5px;
+}
+ul li{
+  list-style-type:none;
+  margin-top: 15px;
+}
+ul li:hover{
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.BodyMiddle{
+  display: grid;
+  grid-template-rows: 20vh 20vh 30vh 30vh ;
+}
+.BodyMiddleText{
+  font-size: 35px;
+  font-weight: 900;
+  color:rgb(0, 89, 255) ;
+}
+.BodyMiddleDashBoard{
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.BodyMiddleTextTwo{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+.BodyArticle{
+  box-shadow: 4px 4px 4px rgb(230, 206, 206);
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 90px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+.Icon{
+  font-size:50px;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+.MarginPara{
+  margin-left: 30px;
+}
+
+.BodyRightOne{
+  display: grid;
+  grid-template-rows: 15% 15% 50% 20%;
+  height: 80vh;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 3px rgb(243, 209, 197);
+}
+.Clinic{
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.IconName{
+  font-size: 24px;
+
+}
+.FormData{
+  display: grid;
+  grid-template-rows:  16% 16% 16% 16% 16% 16%;
+  grid-gap: 4px;
+  
+}
+.DropDownClick{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.WidthInput{
+  width: 80%;
+}
+.LocationGrid{
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-gap: 4px;
+}
+.ButtonOnClick{
+  margin-top: 20px ;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.ButtonGroups{
+  width: 120%;
+  height: 60%;
+}
+.BodyArticle:hover{
+  font-size: 20px;
+}
